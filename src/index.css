@@ -1,0 +1,39 @@
+/* This ensures the scrollbar is always present, preventing layout shifts */
+html {
+  overflow-y: scroll;
+  /* Modern standard for scrollbar styling */
+  scrollbar-color: var(--amber) var(--coffee); /* thumb color | track color */
+  scrollbar-width: none; /* options: 'auto', 'thin', 'none' */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Define the bounce animation */
+@keyframes gentlePulse {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px); /* Much smaller, more subtle movement */
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scaleY(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleY(1.2);
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
