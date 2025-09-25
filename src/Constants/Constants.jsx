@@ -1,4 +1,5 @@
 import { Mic, AudioLines, Camera, PenLine } from "lucide-react";
+import { getMediaPath } from "../Constants/mediaPath";
 
 // ---- THEME COLORS ----
 export const COLORS = {
@@ -28,7 +29,7 @@ export const MEDIA = {
           title: "Emcee Demo",
           description:
             "Sample script performed to bring energy, warmth, and audience connection to life.",
-          src: "/Audio/Emcee Demo.mp3",
+          src: getMediaPath("/Audio/Emcee Demo.mp3"),
         },
       ],
     },

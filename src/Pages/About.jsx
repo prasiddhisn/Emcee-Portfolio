@@ -8,6 +8,7 @@
 import { motion } from "framer-motion";
 import { ChevronLeft } from "lucide-react";
 import { FONT_HEADLINE } from "../Constants/Constants.jsx";
+import { getMediaPath } from "../Constants/mediaPath";
 
 function AboutPage({ onBack }) {
   return (
@@ -71,7 +72,7 @@ function AboutPage({ onBack }) {
               {" "}
               {/* Removed shadow, changed rounded-3xl to rounded-lg */}
               <img
-                src="/Images/PrasiddhiImg_2.JPG"
+                src={getMediaPath("/Images/PrasiddhiImg_2.JPG")}
                 alt="An Image of Prasiddhi"
                 className="w-full h-full object-cover object-center"
                 loading="lazy"

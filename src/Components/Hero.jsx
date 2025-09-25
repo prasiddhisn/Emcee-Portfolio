@@ -8,6 +8,7 @@
 import { motion } from "framer-motion";
 import SocialColumn from "./SocialColumn.jsx";
 import ArrowPulse from "./ArrowPulse.jsx";
+import { getMediaPath } from "../Constants/mediaPath";
 
 function Hero({ setPage }) {
   return (
@@ -85,7 +86,7 @@ function Hero({ setPage }) {
       >
         {/* Portrait Image */}
         <img
-          src="/Images/PrasiddhiImg_1.jpg"
+          src={getMediaPath("/Images/PrasiddhiImg_1.jpg")}
           alt="An Image of Prasiddhi"
           style={{
             width: "100%",
