@@ -1,10 +1,3 @@
-/*
- ------------------
- Hero Component
- ------------------
- Renders the hero section on the homepage with intro text, portrait, social links, and scroll indicator.
-*/
-
 import { motion } from "framer-motion";
 import SocialColumn from "./SocialColumn.jsx";
 import ArrowPulse from "./ArrowPulse.jsx";
@@ -12,35 +5,16 @@ import { getMediaPath } from "../Constants/mediaPath";
 
 function Hero({ setPage }) {
   return (
-    // Main hero section with grid layout and full screen height
-    <section className="relative grid md:grid-cols-[1fr_auto_80px] gap-6 items-center min-h-screen">
+    <section className="relative grid md:grid-cols-[1fr_auto_80px] gap-6 items-center min-h-screen px-4 md:px-12">
       {/* Left Section - Intro Text */}
-      <div
-        className="order-2 md:order-1 relative"
-        style={{
-          top: "-60px", // vertical adjustment
-          left: "-100px", // horizontal adjustment
-        }}
-      >
+      <div className="order-2 md:order-1 relative md:top-0 md:left-0">
         {/* Heading: Introduction */}
         <motion.h1
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-[#e0d9c4]"
-          style={{
-            fontFamily: "Libre Baskerville",
-            fontWeight: "bold", // ← ADD THIS
-            fontSize: "90px",
-            lineHeight: "1.1",
-            whiteSpace: "nowrap",
-            letterSpacing: "0px",
-            textAlign: "left",
-            position: "relative",
-            top: "0px",
-            left: "10px",
-          }}
+          className="text-[#e0d9c4] font-bold font-serif text-5xl sm:text-4xl md:text-[90px] leading-tight"
         >
           Prasiddhi SN
         </motion.h1>
@@ -51,20 +25,7 @@ function Hero({ setPage }) {
           animate={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-[#e0d9c4] max-w-prose"
-          style={{
-            fontFamily: "Calibri, sans-serif",
-            fontStyle: "italic", // ← ADD THIS
-            fontWeight: "100", // ← Lighter weight (100-400 are light)
-            fontSize: "26px",
-            lineHeight: "1.6",
-            letterSpacing: "0px",
-            textAlign: "left",
-            marginTop: "16px",
-            position: "relative",
-            top: "0px",
-            left: "65px",
-          }}
+          className="text-[#e0d9c4] max-w-prose italic font-light text-xl sm:text-lg md:text-2xl mt-4"
         >
           Emcee | Event Host | Public Speaker
         </motion.p>
@@ -72,27 +33,15 @@ function Hero({ setPage }) {
 
       {/* Middle Section - Portrait Photo */}
       <motion.figure
-        className="order-1 md:order-2 justify-self-start"
-        style={{
-          width: "500px",
-          height: "auto",
-          position: "relative",
-          left: "180px",
-          top: "-50px",
-        }}
+        className="order-1 md:order-2 justify-self-center md:justify-self-start w-64 sm:w-80 md:w-[500px]"
         initial={{ scale: 0.98, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.6 }}
       >
-        {/* Portrait Image */}
         <img
           src={getMediaPath("/Images/PrasiddhiImg_1.jpg")}
           alt="An Image of Prasiddhi"
-          style={{
-            width: "100%",
-            height: "auto",
-            objectFit: "contain",
-          }}
+          className="w-full h-auto object-contain"
         />
         <figcaption className="sr-only">
           A welcoming portrait photograph.
@@ -112,5 +61,4 @@ function Hero({ setPage }) {
   );
 }
 
-// Export Hero component
 export default Hero;
