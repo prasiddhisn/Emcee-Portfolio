@@ -23,7 +23,7 @@ import SkillPage from "./Pages/Skills.jsx";
 import AboutPage from "./Pages/About.jsx";
 import ContactPage from "./Pages/Contact.jsx";
 import SiteFooter from "./Components/Footer.jsx";
-import NavBar from "./Components/Navbar.jsx";
+import NavBar from "./Components/NavBar.jsx";
 import HomePage from "./Pages/Home.jsx";
 import ProjectCard from "./Components/ProjectCard.jsx";
 import LazyVideo from "./Components/LazyMedia.jsx";

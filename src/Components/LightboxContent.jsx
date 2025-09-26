@@ -159,6 +159,27 @@ function LightboxContent({ item }) {
     );
   }
 
+  if (item.type === "pdf") {
+    return (
+      <div className="relative w-full h-[65vh] bg-white">
+        <iframe
+          src={item.src}
+          className="w-full h-full border-0"
+          title={`PDF Preview: ${item.title}`}
+        />
+        <div className="absolute bottom-4 right-4">
+          <a
+            href={item.src}
+            download
+            className="inline-flex items-center gap-2 bg-[color:var(--coffee)] text-[color:var(--sand)] px-4 py-2 rounded-lg hover:bg-[color:var(--coffee)]/90 transition-colors"
+          >
+            <Download className="w-4 h-4" />
+            Download PDF
+          </a>
+        </div>
+      </div>
+    );
+  }
   // Return null if media type is unsupported
   return null;
 }
