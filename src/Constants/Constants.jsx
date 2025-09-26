@@ -53,7 +53,7 @@ export const MEDIA = {
       media: [
         {
           type: "audio",
-          title: "Night Sky - Sample Narration",
+          title: "Night Sky",
           description:
             "Narration demo highlighting range, articulation, and expression.",
           src: getMediaPath("/Audio/Night Sky.m4a"),
@@ -375,9 +375,7 @@ export const MEDIA = {
           title: "Synchronize'24 MC Script",
           description:
             "MC script designed to guide proceedings and maintain a lively, attentive audience.",
-          src: getMediaPath(
-            "/Documents/Synchronize 2024 Valedictory Script.pdf"
-          ), // Path to your PDF
+          src: getMediaPath("/Documents/Synchronize24_Valedictory_Script.pdf"), // Path to your PDF
         },
       ],
     },
@@ -390,7 +388,7 @@ export const MEDIA = {
           title: "MILT Grand Slam MC script",
           description:
             "MC script designed to guide proceedings and maintain a lively, attentive audience.",
-          src: getMediaPath("/Documents/Grand Slam MC script.pdf"), // Path to your PDF
+          src: getMediaPath("/Documents/Grand_Slam_MC_script.pdf"), // Path to your PDF
         },
       ],
     },
@@ -403,7 +401,7 @@ export const MEDIA = {
           title: "Xactitude'25 MC Script",
           description:
             "MC script designed to guide proceedings and maintain a lively, attentive audience.",
-          src: getMediaPath("/Documents/Xactitude'25 Chief Guest Script.pdf"), // Path to your PDF
+          src: getMediaPath("/Documents/Xactitude25_Chief_Guest_Script.pdf"), // Path to your PDF
         },
       ],
     },
@@ -416,7 +414,7 @@ export const MEDIA = {
           title: "MILT Grand Slam MC speech",
           description:
             "Speech crafted to inspire and captivate the audience from start to finish.",
-          src: getMediaPath("/Documents/Grand Slam MC speech.pdf"), // Path to your PDF
+          src: getMediaPath("/Documents/Grand_Slam_MC_speech.pdf"), // Path to your PDF
         },
       ],
     },
@@ -429,7 +427,7 @@ export const MEDIA = {
           title: "MILT HR Feedback Speech",
           description:
             "Speech crafted to inspire and captivate the audience from start to finish.",
-          src: getMediaPath("/Documents/HR Feedback Speech.pdf"), // Path to your PDF
+          src: getMediaPath("/Documents/HR_Feedback_Speech.pdf"), // Path to your PDF
         },
       ],
     },
