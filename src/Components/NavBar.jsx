@@ -10,6 +10,7 @@ import React from "react";
 import NavButton from "../Components/NavButton.jsx";
 import { Home } from "lucide-react";
 import { PAGES } from "../Constants/Constants.jsx";
+import { getMediaPath } from "../Constants/mediaPath";
 
 export default function NavBar({ setPage, setActiveSkill, FONT_HEADLINE }) {
   return (

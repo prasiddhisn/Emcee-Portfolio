@@ -4,6 +4,7 @@
  ------------------
  Renders the footer at the bottom of the website with copyright, text, and social links.
 */
+import { getMediaPath } from "../Constants/mediaPath";
 
 function SiteFooter({ setPage }) {
   return (

@@ -5,6 +5,7 @@
  Displays a vertical column of social media links on the right side of the Hero section.
  Provides clickable icons for Instagram, LinkedIn, and Email.
 */
+import { getMediaPath } from "../Constants/mediaPath";
 
 function SocialColumn() {
   const btn = "transition hover:scale-105"; // common button hover animation
