@@ -38,7 +38,7 @@ function SiteFooter({ setPage }) {
             rel="noreferrer"
           >
             <img
-              src="/Icons/Instagram_Icon.png"
+              src={getMediaPath("/Icons/Instagram_Icon.png")}
               alt="Instagram"
               className="w-6 h-6 object-contain"
             />
@@ -50,14 +50,14 @@ function SiteFooter({ setPage }) {
             rel="noreferrer"
           >
             <img
-              src="/Icons/Linkedin_Icon.png"
+              src={getMediaPath("/Icons/Linkedin_Icon.png")}
               alt="LinkedIn"
               className="w-6 h-6 object-contain"
             />
           </a>
           <a href="mailto:snprasiddhi2@gmail.com" aria-label="Email">
             <img
-              src="/Icons/Email_Icon.png"
+              src={getMediaPath("/Icons/Email_Icon.png")}
               alt="E-Mail"
               className="w-6 h-6 object-contain"
             />

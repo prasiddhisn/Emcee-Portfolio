@@ -25,7 +25,11 @@ export default function NavBar({ setPage, setActiveSkill, FONT_HEADLINE }) {
           className="inline-flex items-center gap-2 tracking-wide bg-transparent border-none text-[color:var(--sand)]"
           aria-label="Go to Home"
         >
-          <img src="/Icons/icons8-home-32.png" alt="Home" className="w-6 h-6" />
+          <img
+            src={getMediaPath("/Icons/icons8-home-32.png")}
+            alt="Home"
+            className="w-6 h-6"
+          />
           <span></span>
         </button>
 

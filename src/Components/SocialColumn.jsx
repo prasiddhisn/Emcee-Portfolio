@@ -29,7 +29,7 @@ function SocialColumn() {
         aria-label="Instagram"
       >
         <img
-          src="/Icons/Instagram_Icon.png"
+          src={getMediaPath("/Icons/Instagram_Icon.png")}
           alt="Instagram"
           className="w-10 h-10 object-contain"
         />
@@ -44,7 +44,7 @@ function SocialColumn() {
         aria-label="LinkedIn"
       >
         <img
-          src="/Icons/Linkedin_Icon.png"
+          src={getMediaPath("/Icons/Linkedin_Icon.png")}
           alt="LinkedIn"
           className="w-10 h-10 object-contain"
         />
@@ -57,7 +57,7 @@ function SocialColumn() {
         aria-label="Send Email"
       >
         <img
-          src="/Icons/Email_Icon.png"
+          src={getMediaPath("/Icons/Email_Icon.png")}
           alt="E-Mail"
           className="w-10 h-10 object-contain"
         />

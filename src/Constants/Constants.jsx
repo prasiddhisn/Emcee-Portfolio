@@ -43,7 +43,7 @@ export const MEDIA = {
           title: "Windstar Holidays",
           description:
             "Voiceover used in promotional Instagram content for Windstar Holidays.",
-          src: "/Audio/Windstar Holidays.mp3",
+          src: getMediaPath("/Audio/Windstar Holidays.mp3"),
         },
       ],
     },
@@ -56,21 +56,21 @@ export const MEDIA = {
           title: "Night Sky - Sample Narration",
           description:
             "Narration demo highlighting range, articulation, and expression.",
-          src: "/Audio/Night Sky.m4a",
+          src: getMediaPath("/Audio/Night Sky.m4a"),
         },
         {
           type: "audio",
           title: "Soft Sunrise",
           description:
             "Narration demo highlighting range, articulation, and expression.",
-          src: "/Audio/Soft Sunrise.m4a",
+          src: getMediaPath("/Audio/Soft Sunrise.m4a"),
         },
         {
           type: "audio",
           title: "Quiet Moments",
           description:
             "Narration demo highlighting range, articulation, and expression.",
-          src: "/Audio/Quiet Moments.mp3",
+          src: getMediaPath("/Audio/Quiet Moments.mp3"),
         },
       ],
     },
@@ -86,7 +86,7 @@ export const MEDIA = {
           title: "I See the Light (Cover)",
           description:
             "A heartfelt acoustic cover, performed over karaoke accompaniment.",
-          src: "/Audio/I See the Light.mp3",
+          src: getMediaPath("/Audio/I See the Light.mp3"),
         },
       ],
     },
@@ -99,7 +99,7 @@ export const MEDIA = {
           title: "How Far I'll Go (Cover)",
           description:
             "A heartfelt acoustic cover, performed over karaoke accompaniment.",
-          src: "/Audio/How Far Ill Go.mp3",
+          src: getMediaPath("/Audio/How Far Ill Go.mp3"),
         },
       ],
     },
@@ -112,7 +112,7 @@ export const MEDIA = {
           title: "Love Story (Cover)",
           description:
             "A heartfelt acoustic cover, performed over karaoke accompaniment.",
-          src: "/Audio/Love Story.mp3",
+          src: getMediaPath("/Audio/Love Story.mp3"),
         },
       ],
     },
@@ -125,7 +125,7 @@ export const MEDIA = {
           title: "Yellow (Cover)",
           description:
             "A soft acoustic cover, performed over karaoke accompaniment.",
-          src: "/Audio/Yellow.m4a",
+          src: getMediaPath("/Audio/Yellow.m4a"),
         },
       ],
     },
@@ -138,7 +138,7 @@ export const MEDIA = {
           title: "Piece by Piece (Cover)",
           description:
             "A heartfelt acoustic cover, performed over karaoke accompaniment.",
-          src: "/Audio/Piece by Piece.mp3",
+          src: getMediaPath("/Audio/Piece by Piece.mp3"),
         },
       ],
     },
@@ -151,7 +151,7 @@ export const MEDIA = {
           title: "Umbrella (Cover)",
           description:
             "A heartfelt acoustic cover, performed over karaoke accompaniment.",
-          src: "/Audio/Umbrella.m4a",
+          src: getMediaPath("/Audio/Umbrella.m4a"),
         },
       ],
     },
@@ -164,7 +164,7 @@ export const MEDIA = {
           title: "Somewhere Only We Know (Cover)",
           description:
             "A soft acoustic cover, performed over karaoke accompaniment.",
-          src: "/Audio/Somewhere Only We Know.m4a",
+          src: getMediaPath("/Audio/Somewhere Only We Know.m4a"),
         },
       ],
     },
@@ -177,7 +177,7 @@ export const MEDIA = {
         {
           type: "video",
           description: "Filmed and produced by Storie Weavers.",
-          src: "/Videos/PS5vid_1.mp4",
+          src: getMediaPath("/Videos/PS5vid_1.mp4"),
           alt: "Promotional content video",
         },
       ],
@@ -189,7 +189,7 @@ export const MEDIA = {
         {
           type: "video",
           description: "Filmed and produced by Storie Weavers",
-          src: "/Videos/PS5vid_2.mp4",
+          src: getMediaPath("/Videos/PS5vid_2.mp4"),
           alt: "Promotional content video",
         },
       ],
@@ -201,7 +201,7 @@ export const MEDIA = {
         {
           type: "video",
           description: "Filmed and produced by Storie Weavers",
-          src: "/Videos/PS5vid_3.mp4",
+          src: getMediaPath("/Videos/PS5vid_3.mp4"),
           alt: "Promotional content video",
         },
       ],
@@ -215,19 +215,19 @@ export const MEDIA = {
       media: [
         {
           type: "image",
-          src: "/Images/XactitudeImg_1.JPG",
+          src: getMediaPath("/Images/XactitudeImg_1.JPG"),
           alt: "Xactitude'25 Image",
         },
 
         {
           type: "image",
-          src: "/Images/XactitudeImg_2.JPG",
+          src: getMediaPath("/Images/XactitudeImg_2.JPG"),
           alt: "Xactitude'25 Image",
         },
 
         {
           type: "image",
-          src: "/Images/XactitudeImg_3.JPG",
+          src: getMediaPath("/Images/XactitudeImg_3.JPG"),
           alt: "Xactitude'25 Image",
         },
       ],
@@ -239,12 +239,12 @@ export const MEDIA = {
       media: [
         {
           type: "image",
-          src: "/Images/SynchronizeImg_1.JPG",
+          src: getMediaPath("/Images/SynchronizeImg_1.JPG"),
           alt: "Valedictory event image",
         },
         {
           type: "image",
-          src: "/Images/SynchronizeImg_2.jpg",
+          src: getMediaPath("/Images/SynchronizeImg_2.jpg"),
           alt: "Valedictory event image",
         },
       ],
@@ -256,22 +256,22 @@ export const MEDIA = {
       media: [
         {
           type: "image",
-          src: "/Images/MILTImg_1.jpg",
+          src: getMediaPath("/Images/MILTImg_1.jpg"),
           alt: "Alumni meeting image",
         },
         {
           type: "video",
-          src: "/Videos/MILTVid_1.mp4",
+          src: getMediaPath("/Videos/MILTVid_1.mp4"),
           alt: "Alumni meeting image",
         },
         {
           type: "video",
-          src: "/Videos/MILTVid_2.mp4",
+          src: getMediaPath("/Videos/MILTVid_2.mp4"),
           alt: "Alumni meeting image",
         },
         {
           type: "image",
-          src: "/Images/MILTImg_2.jpg",
+          src: getMediaPath("/Images/MILTImg_2.jpg"),
           alt: "Alumni meeting image",
         },
       ],
@@ -283,23 +283,23 @@ export const MEDIA = {
       media: [
         {
           type: "image",
-          src: "/Images/BahaiImg_1.jpg",
+          src: getMediaPath("/Images/BahaiImg_1.jpg"),
           alt: "Bicentenary event image",
         },
         {
           type: "video",
-          src: "/Videos/Bahaivid_1.mp4",
+          src: getMediaPath("/Videos/Bahaivid_1.mp4"),
           alt: "Bicentenary event image",
         },
         {
           type: "video",
-          src: "/Videos/Bahaivid_2.mp4",
+          src: getMediaPath("/Videos/Bahaivid_2.mp4"),
           alt: "Bicentenary event image",
         },
 
         {
           type: "image",
-          src: "/Images/BahaiImg_3.JPG",
+          src: getMediaPath("/Images/BahaiImg_3.JPG"),
           alt: "Bicentenary event image",
         },
       ],
@@ -313,23 +313,23 @@ export const MEDIA = {
       media: [
         {
           type: "image",
-          src: "/Images/SinglesImg_1.jpg",
+          src: getMediaPath("/Images/SinglesImg_1.jpg"),
           alt: "Singles Meet image",
         },
 
         {
           type: "video",
-          src: "/Videos/SinglesVid_1.mp4",
+          src: getMediaPath("/Videos/SinglesVid_1.mp4"),
           alt: "Singles Meet image",
         },
         {
           type: "video",
-          src: "/Videos/SinglesVid_2.mp4",
+          src: getMediaPath("/Videos/SinglesVid_2.mp4"),
           alt: "Singles Meet image",
         },
         {
           type: "image",
-          src: "/Images/SinglesImg_2.jpg",
+          src: getMediaPath("/Images/SinglesImg_2.jpg"),
           alt: "Singles Meet image",
         },
       ],
@@ -343,23 +343,23 @@ export const MEDIA = {
       media: [
         {
           type: "image",
-          src: "/Images/HRimg_1.JPG",
+          src: getMediaPath("/Images/HRimg_1.JPG"),
           alt: "HR Feedback image",
         },
         {
           type: "video",
-          src: "/Videos/HRvid_1.mp4",
+          src: getMediaPath("/Videos/HRvid_1.mp4"),
           alt: "HR Feedback image",
         },
         {
           type: "image",
-          src: "/Images/HRimg_2.JPG",
+          src: getMediaPath("/Images/HRimg_2.JPG"),
           alt: "HR Feedback image",
         },
 
         {
           type: "image",
-          src: "/Images/HRimg_3.JPG",
+          src: getMediaPath("/Images/HRimg_3.JPG"),
           alt: "HR Feedback image",
         },
       ],
@@ -375,7 +375,9 @@ export const MEDIA = {
           title: "Synchronize'24 MC Script",
           description:
             "MC script designed to guide proceedings and maintain a lively, attentive audience.",
-          src: "/Documents/Synchronize 2024 Valedictory Script.pdf", // Path to your PDF
+          src: getMediaPath(
+            "/Documents/Synchronize 2024 Valedictory Script.pdf"
+          ), // Path to your PDF
         },
       ],
     },
@@ -388,7 +390,7 @@ export const MEDIA = {
           title: "MILT Grand Slam MC script",
           description:
             "MC script designed to guide proceedings and maintain a lively, attentive audience.",
-          src: "/Documents/Grand Slam MC script.pdf", // Path to your PDF
+          src: getMediaPath("/Documents/Grand Slam MC script.pdf"), // Path to your PDF
         },
       ],
     },
@@ -401,7 +403,7 @@ export const MEDIA = {
           title: "Xactitude'25 MC Script",
           description:
             "MC script designed to guide proceedings and maintain a lively, attentive audience.",
-          src: "/Documents/Xactitude'25 Chief Guest Script.pdf", // Path to your PDF
+          src: getMediaPath("/Documents/Xactitude'25 Chief Guest Script.pdf"), // Path to your PDF
         },
       ],
     },
@@ -414,7 +416,7 @@ export const MEDIA = {
           title: "MILT Grand Slam MC speech",
           description:
             "Speech crafted to inspire and captivate the audience from start to finish.",
-          src: "/Documents/Grand Slam MC speech.pdf", // Path to your PDF
+          src: getMediaPath("/Documents/Grand Slam MC speech.pdf"), // Path to your PDF
         },
       ],
     },
@@ -427,7 +429,7 @@ export const MEDIA = {
           title: "MILT HR Feedback Speech",
           description:
             "Speech crafted to inspire and captivate the audience from start to finish.",
-          src: "/Documents/HR Feedback Speech.pdf", // Path to your PDF
+          src: getMediaPath("/Documents/HR Feedback Speech.pdf"), // Path to your PDF
         },
       ],
     },
